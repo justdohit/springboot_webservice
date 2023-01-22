@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MemberRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MemberRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.jooheej.html">com.example.jooheej</a> &gt; MemberRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.133s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">MemberRepositoryTest()</td>
+<td class="success">0.133s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:32:17.256 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [MemberRepositoryTest]: using SpringBootContextLoader
+18:32:17.259 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.jooheej.MemberRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:32:17.259 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.jooheej.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:32:17.270 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [MemberRepositoryTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+18:32:17.302 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/jooheejung/Downloads/jooheej/build/classes/java/main/com/example/jooheej/JooheejApplication.class]
+18:32:17.303 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.jooheej.JooheejApplication for test class com.example.jooheej.MemberRepositoryTest
+18:32:17.341 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [MemberRepositoryTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+18:32:17.342 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [MemberRepositoryTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-21T18:32:17.481+09:00  INFO 2969 --- [    Test worker] c.example.jooheej.MemberRepositoryTest   : Starting MemberRepositoryTest using Java 19.0.2 with PID 2969 (started by jooheejung in /Users/jooheejung/Downloads/jooheej)
+2023-01-21T18:32:17.482+09:00  INFO 2969 --- [    Test worker] c.example.jooheej.MemberRepositoryTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-01-21T18:32:17.725+09:00  INFO 2969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21T18:32:17.734+09:00  INFO 2969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-01-21T18:32:17.924+09:00  INFO 2969 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21T18:32:17.943+09:00  INFO 2969 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-21T18:32:18.007+09:00  WARN 2969 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-21T18:32:18.055+09:00  INFO 2969 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21T18:32:18.105+09:00  INFO 2969 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-01-21T18:32:18.106+09:00  INFO 2969 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21T18:32:18.122+09:00  INFO 2969 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-21T18:32:18.505+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists member cascade 
+2023-01-21T18:32:18.507+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop sequence if exists member_seq
+2023-01-21T18:32:18.510+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : create sequence member_seq start with 1 increment by 50
+2023-01-21T18:32:18.511+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table member (
+       id bigint not null,
+        username varchar(255),
+        primary key (id)
+    )
+2023-01-21T18:32:18.513+09:00  INFO 2969 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21T18:32:18.517+09:00  INFO 2969 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21T18:32:18.687+09:00  INFO 2969 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-21T18:32:18.784+09:00  INFO 2969 --- [    Test worker] c.example.jooheej.MemberRepositoryTest   : Started MemberRepositoryTest in 1.422 seconds (process running for 1.974)
+2023-01-21T18:32:18.883+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : 
+    select
+        next value for member_seq
+2023-01-21T18:32:18.920+09:00 DEBUG 2969 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (username, id) 
+    values
+        (?, ?)
+2023-01-21T18:32:18.921+09:00 TRACE 2969 --- [    Test worker] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [memberA]
+2023-01-21T18:32:18.921+09:00 TRACE 2969 --- [    Test worker] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [BIGINT] - [1]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 1. 21. 오후 6:32:18</p>
+</div>
+</div>
+</body>
+</html>
