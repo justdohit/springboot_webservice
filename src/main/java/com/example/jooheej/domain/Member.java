@@ -20,4 +20,8 @@ public class Member {
 
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
+    /* !! 컬렉션은 필드에서 초기화하자.
+       null 문제에서 안전하다.
+
+    * */
 }
