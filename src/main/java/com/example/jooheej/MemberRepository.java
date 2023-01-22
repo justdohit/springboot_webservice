@@ -1,5 +1,6 @@
 package com.example.jooheej;
 
+import com.example.jooheej.domain.Member;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;

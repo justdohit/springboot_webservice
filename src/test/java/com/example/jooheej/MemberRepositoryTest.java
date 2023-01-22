@@ -1,5 +1,6 @@
 package com.example.jooheej;
 
+import com.example.jooheej.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +21,7 @@ public class MemberRepositoryTest {
     public void MemberRepositoryTest() throws Exception {
         //given
         Member member = new Member();
-        member.setUsername("memberA");
+        member.setName("memberA");
 
         //when
         Long savedId = memberRepository.save(member);
@@ -28,8 +29,8 @@ public class MemberRepositoryTest {
 
         //then
         Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
-        Assertions.assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
-        Assertions.assertThat(findMember).isEqualTo(member); // 같은 영속성 container 에서 식별자가 같으면 같은 Entity로 인식
+        Assertions.assertThat(findMember.getName()).isEqualTo(member.getName());
+        Assertions.assertThat(findMember).isEqualTo(member); // 같은 영속성 컨텍스트 에서 식별자가 같으면 같은 Entity로 인식
 
     }
 
